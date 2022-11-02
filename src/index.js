@@ -9,20 +9,26 @@ import Signup from './pages/Signup'
 import Header from './components/ui/Header'
 import Footer from './components/ui/Footer'
 import reportWebVitals from './reportWebVitals';
+import Store from './Store';
+import { Provider } from 'react-redux';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <BrowserRouter>
-    <Header/>
-    <Routes>
-      <Route path="/" element={<Home/>}></Route>
-      <Route path="/login" element={<Login/>}></Route>
-      <Route path="/settings" element={<Settings/>}></Route>
-      <Route path="/signup" element={<Signup/>}></Route>
-    </Routes>
-    <Footer/>
-  </BrowserRouter>
 
+const store = Store;
+
+root.render(
+  <Provider store={store}>
+    <BrowserRouter>
+      <Header/>
+      <Routes>
+        <Route path="/" element={<Home/>}></Route>
+        <Route path="/login" element={<Login/>}></Route>
+        <Route path="/settings" element={<Settings/>}></Route>
+        <Route path="/signup" element={<Signup/>}></Route>
+      </Routes>
+      <Footer/>
+    </BrowserRouter>
+  </Provider>
 );
 
 reportWebVitals();
