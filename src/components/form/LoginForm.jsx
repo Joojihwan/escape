@@ -1,8 +1,7 @@
-import React from 'react';
+import React, {state, useState} from 'react';
 import Admin from '../../data/Admin';
 import {useDispatch, useSelector} from 'react-redux';
 import {login} from '../../hooks/LoginSlice';
-import {state, useState} from 'react';
 import { setCookie } from '../../hooks/Cookie';
 
 function tmp_login(id, password) {

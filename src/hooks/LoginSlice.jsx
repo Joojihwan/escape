@@ -1,5 +1,4 @@
 import {createSlice} from '@reduxjs/toolkit';
-import {setCookie} from './Cookie';
 
 const LoginSlice = createSlice({
     name: "login",

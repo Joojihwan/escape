@@ -20,3 +20,7 @@ code {
 .LoginForm {
   background-color: aliceblue;
 }
+
+.CardViewContext{
+  border: solid;
+}

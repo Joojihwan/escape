@@ -9,7 +9,9 @@ function Login() {
         <div>
             <h3>{isLogined}</h3>
             <LoginForm/>
-            <TestComponent />
+            <TestComponent 
+                test="test"
+            />
         </div>
     );
 }
