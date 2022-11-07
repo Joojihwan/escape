@@ -24,3 +24,10 @@ code {
 .CardViewContext{
   border: solid;
 }
+
+textarea{
+  margin-left: 1em;
+  width: 90%;
+  height: fit-content;
+  resize: none;
+}
