@@ -1,7 +1,7 @@
 import React from 'react';
 import LoginForm from '../../components/form/LoginForm';
 import {useSelector} from 'react-redux';
-import TestComponent from '../../components/ui/TestComponent';
+import LoginButton from '../../components/ui/LoginButton';
 
 function Login() {
     const isLogined = useSelector(state=>state.login.isLogined);
@@ -9,9 +9,7 @@ function Login() {
         <div>
             <h3>{isLogined}</h3>
             <LoginForm/>
-            <TestComponent 
-                test="test"
-            />
+            <LoginButton/>
         </div>
     );
 }

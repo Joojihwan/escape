@@ -1,5 +1,9 @@
+html, .root {
+  height: 100%;
+}
+
 body {
-  margin: 0;
+  margin: 1em;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -13,10 +17,29 @@ code {
 }
 
 .header, .footer {
-  margin: auto;
   background-color: whitesmoke;
+  width: 98%;
+  height: 10%;
 }
 
+.header {
+  position: absolute;
+  top: 0;
+}
+
+.main_body {
+  position: absolute;
+  top: 10%;
+  width: 100%;
+  height: 80%;
+}
+
+.footer{
+  margin: 0 0 0 1;
+  border: solid ;
+  position: absolute;
+  bottom: 0;
+}
 .LoginForm {
   background-color: aliceblue;
 }
@@ -31,3 +54,9 @@ textarea{
   height: fit-content;
   resize: none;
 }
+
+
+.home_image{
+  width: 5%;
+}
+

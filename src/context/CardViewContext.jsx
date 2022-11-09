@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import ToggleTextBox from "./ToggleTextBox";
-
-const defaultSrc = '../assets/logo.svg';
+import defaultSrc from '../assets/whiskey.png'
+import './CardViewContent.css'
 
 function CardViewContext (props) {
     const title = props.title || "";
@@ -9,6 +9,7 @@ function CardViewContext (props) {
     const content = props.content || "";
     const no = props.no || "";
     const [toggle, setToggle] = useState(false);
+    const editable = props.editable || false;
     return (
         <div className="CardViewContext">
             <p><label>{no}</label></p>
@@ -20,6 +21,7 @@ function CardViewContext (props) {
             <p><ToggleTextBox 
                     toggle={toggle}
                     content={content}
+                    editable={editable}
                 /></p>
         </div>
     );
