@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import ToggleTextBox from "./ToggleTextBox";
 import defaultSrc from '../assets/whiskey.png'
-import './CardViewContent.css'
+import './CardViewContext.css'
 
 function CardViewContext (props) {
     const title = props.title || "";

@@ -7,8 +7,6 @@ import Login from './pages/Login/index'
 import Settings from './pages/Settings/index'
 import TestPage from './pages/TestPage/index'
 import Signup from './pages/Signup'
-import Header from './components/ui/Header'
-import Footer from './components/ui/Footer'
 import reportWebVitals from './reportWebVitals';
 import Store from './Store';
 import { Provider } from 'react-redux';
@@ -20,7 +18,6 @@ const store = Store;
 root.render(
   <Provider store={store}>
     <BrowserRouter>
-      <Header/>
       <div className='main_body'>
         <Routes>
           <Route path="/" element={<Home/>}></Route>
@@ -30,7 +27,6 @@ root.render(
           <Route path="/testpage" element={<TestPage/>}></Route>
         </Routes>
       </div>
-      <Footer/>
     </BrowserRouter>
   </Provider>
 );

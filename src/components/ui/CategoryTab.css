@@ -1,0 +1,16 @@
+.tab_container > li {
+    width: 20%;
+    border : solid;
+    float: left;
+    list-style:none;
+    background-color: rgba(143, 62, 62, 0.699);
+}
+
+.tab_container > .selected {
+    background-color: rgba(100, 24, 24, 0.89);
+    color:white;
+}
+
+.categoryContext_container {
+    clear: both;
+}
