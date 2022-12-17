@@ -1,9 +1,9 @@
-html, .root {
+html, body, #root, .main_body {
+  width: 100%;
   height: 100%;
 }
 
 body {
-  margin: 1em;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -16,9 +16,8 @@ code {
     monospace;
 }
 
-.header, .footer {
-  background-color: whitesmoke;
-  width: 98%;
+.header{
+  width: 100%;
   height: 10%;
 }
 
@@ -28,18 +27,11 @@ code {
 }
 
 .main_body {
-  position: absolute;
   top: 10%;
   width: 100%;
   height: 80%;
 }
-
-.footer{
-  margin: 0 0 0 1;
-  border: solid ;
-  position: absolute;
-  bottom: 0;
-}
+ 
 .LoginForm {
   background-color: aliceblue;
 }
@@ -55,8 +47,19 @@ textarea{
   resize: none;
 }
 
-
-.home_image{
-  width: 5%;
+.home > img{
+  width: 70%;
+  height: 100%;
 }
 
+.Toast {
+  color: white;
+  background-color: rgba(63, 17, 17, 0.945);
+  width: 100%;
+  height: 100%;
+}
+
+.Toast > div {
+  position: absolute;
+  bottom: 50%;
+}

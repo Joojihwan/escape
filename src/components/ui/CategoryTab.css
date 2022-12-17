@@ -1,16 +1,31 @@
-.tab_container > li {
-    width: 20%;
-    border : solid;
+.tab_container > ul {
+    width: 100%;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+    list-style: none;
     float: left;
-    list-style:none;
+}
+
+.tab_container > ul > li {
+    width:100%;
+    padding: 0px 10px;
+    cursor: pointer;
+    border : solid;
     background-color: rgba(143, 62, 62, 0.699);
 }
 
-.tab_container > .selected {
+.selected {
     background-color: rgba(100, 24, 24, 0.89);
     color:white;
 }
 
 .categoryContext_container {
     clear: both;
+}
+
+.categoryContext_container > div{
+    background-color: rgba(71, 42, 42, 0.89);
 }
