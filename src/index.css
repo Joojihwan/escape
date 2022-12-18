@@ -1,4 +1,4 @@
-html, body, #root, .main_body {
+html, body, #root, .main_body, .toast, .search, .register {
   width: 100%;
   height: 100%;
 }
@@ -25,12 +25,6 @@ code {
   position: absolute;
   top: 0;
 }
-
-.main_body {
-  top: 10%;
-  width: 100%;
-  height: 80%;
-}
  
 .LoginForm {
   background-color: aliceblue;
@@ -55,8 +49,6 @@ textarea{
 .Toast {
   color: white;
   background-color: rgba(63, 17, 17, 0.945);
-  width: 100%;
-  height: 100%;
 }
 
 .Toast > div {

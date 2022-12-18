@@ -4,7 +4,7 @@ import './SearchBar.css'
 
 function SearchBar (props) {
     return (
-        <div className="searchBar">
+        <div className="search_bar">
             <input placeholder="Search Whiskey Name"/>
             <img 
                 className='search_btn' 

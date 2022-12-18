@@ -5,16 +5,20 @@ function CardView (props) {
     const data = props.data;
     const cardViewList = data.map((item) => {
         return (
-        <CardViewContext className='CardViewContext'
-            key={item.no}
-            no={item.no}
-            title={item.title}
-            src={item.src}
-            content={item.content}
-        />
+            <CardViewContext className='CardViewContext'
+                key={item.no}
+                no={item.no}
+                title={item.title}
+                src={item.src}
+                content={item.content}
+            />
         );
     })
-    return cardViewList;
+    return (
+        <div className='cardview_list'>
+            {cardViewList}
+        </div>
+        );
 }
 
 export default CardView;

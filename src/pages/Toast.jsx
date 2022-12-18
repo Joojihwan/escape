@@ -8,12 +8,12 @@ function Toast() {
         count += 1;
         if(count === 3) {
             clearInterval(counting);
-            navigate('/home');
+            navigate('/search');
         }
     },1000);
 
     return (
-        <div className='Toast'>
+        <div className='toast'>
             <div>
                 <p>Slainte</p>
                 <p>잔에 담긴 하나의 작품</p>

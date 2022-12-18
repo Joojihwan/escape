@@ -1,10 +1,4 @@
-.searchBar{
-    background-color: rgba(185, 185, 185, 0.918);
-    height: fit-content;
-}
-
-.searchBar > input {
-    background-color: rgba(185, 185, 185, 0.918);
+.search_bar > input {
     width: 85%;
     height: 30px;
     border: none;
