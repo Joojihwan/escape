@@ -1,10 +1,10 @@
 const Whiskey = [
     {
-        title: "",
+        title: "Auchentoshan",
         src: "",
         content: "",
         no: 0,
-        price: 0,
+        price: 153200,
     },
     {
         title: "",

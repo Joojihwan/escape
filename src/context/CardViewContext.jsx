@@ -11,18 +11,26 @@ function CardViewContext (props) {
     const [toggle, setToggle] = useState(false);
     const editable = props.editable || false;
     return (
-        <div className="CardViewContext">
-            <p><label>{no}</label></p>
-            <p><label>{title}</label></p>
-            <p><img src={src} /></p>
-            <p><button onClick={(e) => {
-                setToggle(!toggle);
-            }}>더보기</button></p>
-            <p><ToggleTextBox 
-                    toggle={toggle}
-                    content={content}
-                    editable={editable}
-                /></p>
+        <div className="cardview_context">
+            <div className="img_area">
+                <img src={src} />
+            </div>
+            <div className="context_area">
+                <div className="context_top_area">
+                    {title}
+                    <button className="like_btn">좋아요버튼</button>
+                </div>
+                <div className="context_bottom_area">
+                    <button onClick={(e) => {
+                        setToggle(!toggle);
+                    }}>더보기</button>
+                    <ToggleTextBox 
+                            toggle={toggle}
+                            content={content}
+                            editable={editable}
+                        />
+                </div>
+            </div>
         </div>
     );
 }

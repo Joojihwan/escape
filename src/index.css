@@ -46,12 +46,12 @@ textarea{
   height: 100%;
 }
 
-.Toast {
+.toast {
   color: white;
   background-color: rgba(63, 17, 17, 0.945);
 }
 
-.Toast > div {
+.toast > div {
   position: absolute;
   bottom: 50%;
 }
