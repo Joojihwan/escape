@@ -2,3 +2,4 @@
 
 1. Requirements
 - React
+- NPM
