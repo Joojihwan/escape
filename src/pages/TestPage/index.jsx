@@ -7,6 +7,7 @@ function TestPage() {
            <TestComponent 
                 test="test"
             />
+            TestPage
         </div>
     );
 }

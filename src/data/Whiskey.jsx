@@ -20,13 +20,13 @@ const Whiskey = [
         no: 2,
         price: 0,
     },
-    {
-        title: "",
-        src: "",
-        content: "",
-        no: 3,
-        price: 0,
-    },
+    // {
+    //     title: "",
+    //     src: "",
+    //     content: "",
+    //     no: 3,
+    //     price: 0,
+    // },
 ]
 
 export default Whiskey;

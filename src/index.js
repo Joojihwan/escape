@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
-import TestPage from './pages/TestPage/index';
+import TestPage from './pages/TestPage';
 import Toast from './pages/Toast';
 import Search from './pages/Search';
 import Register from './pages/Register';

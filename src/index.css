@@ -55,3 +55,28 @@ textarea{
   position: absolute;
   bottom: 50%;
 }
+
+@media all and (max-width: 1024px){
+  html{
+    width: 50%;
+    margin: auto;
+  }
+}
+@media all and (max-width: 768px){
+  html{
+    width: 50%;
+    margin: auto;
+  }
+}
+@media all and (min-width: 768px){
+  html{
+    width: 50%;
+    margin: auto;
+  }
+}
+@media all and (min-width: 1024px){
+  html{
+    width: 40%;
+    margin: auto;
+  }
+}
