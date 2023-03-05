@@ -58,25 +58,25 @@ textarea{
 
 @media all and (max-width: 1024px){
   html{
-    width: 50%;
+    width: 60%;
     margin: auto;
   }
 }
 @media all and (max-width: 768px){
   html{
-    width: 50%;
+    width: 100%;
     margin: auto;
   }
 }
 @media all and (min-width: 768px){
   html{
-    width: 50%;
+    width: 60%;
     margin: auto;
   }
 }
 @media all and (min-width: 1024px){
   html{
-    width: 40%;
+    width: 60%;
     margin: auto;
   }
 }
